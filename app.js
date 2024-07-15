@@ -10,6 +10,7 @@ $(document).ready(function(){
             $('.step-1').hide()
             $('.step-2').show()
             target = Math.floor((Math.random() * max_nam) + 1)
+            console.log(target)
             tedad_shance = Math.floor(Math.log2(max_nam))
             $('.tedad_shance').text(tedad_shance)
         }
